@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/denis/Desktop/vrotebalc++/progs/quadratic equations'
+make: Leaving directory 'c:/Users/denis/Desktop/vrotebalc++/progs/quadratic equations'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

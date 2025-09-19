@@ -1,0 +1,1331 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      The system is: Linux - 5.15.167.4-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/3.31.6/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/3.31.6/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pMTrPx"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pMTrPx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pMTrPx'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_373a8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_373a8.dir/build.make CMakeFiles/cmTC_373a8.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pMTrPx'
+        Building C object CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o -c /snap/cmake/1445/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_373a8.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/cmake/1445/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_373a8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccTeZaz9.s
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_373a8.dir/'
+         as -v --64 -o CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o /tmp/ccTeZaz9.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_373a8
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_373a8.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_373a8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_373a8.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJdFzAQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_373a8 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 11.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJdFzAQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_373a8 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_373a8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_373a8.'
+        /usr/bin/cc  -v -Wl,-v -rdynamic CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o -o cmTC_373a8
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pMTrPx'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pMTrPx']
+        ignore line: []
+        ignore line: [Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_373a8/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_373a8.dir/build.make CMakeFiles/cmTC_373a8.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-pMTrPx']
+        ignore line: [Building C object CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o -c /snap/cmake/1445/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_373a8.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/cmake/1445/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_373a8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccTeZaz9.s]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_373a8.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o /tmp/ccTeZaz9.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_373a8]
+        ignore line: [/snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_373a8.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_373a8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_373a8.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJdFzAQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_373a8 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccJdFzAQ.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_373a8] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 11.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJdFzAQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_373a8 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_373a8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-uYl6Pu"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-uYl6Pu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-uYl6Pu'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b1bad/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b1bad.dir/build.make CMakeFiles/cmTC_b1bad.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-uYl6Pu'
+        Building CXX object CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1445/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b1bad.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1445/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b1bad.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccYWE5Xt.s
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/11
+         /usr/include/x86_64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b1bad.dir/'
+         as -v --64 -o CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYWE5Xt.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_b1bad
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1bad.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b1bad' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b1bad.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0dJaDo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b1bad /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 11.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0dJaDo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b1bad /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b1bad' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b1bad.'
+        /usr/bin/c++  -v -Wl,-v -rdynamic CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b1bad
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-uYl6Pu'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/11]
+          add: [/usr/include/x86_64-linux-gnu/c++/11]
+          add: [/usr/include/c++/11/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+        collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-uYl6Pu']
+        ignore line: []
+        ignore line: [Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b1bad/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_b1bad.dir/build.make CMakeFiles/cmTC_b1bad.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-uYl6Pu']
+        ignore line: [Building CXX object CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1445/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b1bad.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1445/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b1bad.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccYWE5Xt.s]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/11]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+        ignore line: [ /usr/include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b1bad.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYWE5Xt.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_b1bad]
+        ignore line: [/snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1bad.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b1bad' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b1bad.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0dJaDo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b1bad /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc0dJaDo.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b1bad] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 11.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0dJaDo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b1bad /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b1bad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckTypeSize.cmake:262 (check_include_file)"
+      - "CMake/setup.cmake:133 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:36 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-1AccTv"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-1AccTv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-1AccTv'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9d71e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9d71e.dir/build.make CMakeFiles/cmTC_9d71e.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-1AccTv'
+        Building C object CMakeFiles/cmTC_9d71e.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_9d71e.dir/CheckIncludeFile.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-1AccTv/CheckIncludeFile.c
+        Linking C executable cmTC_9d71e
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d71e.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_9d71e.dir/CheckIncludeFile.c.o -o cmTC_9d71e
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-1AccTv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckTypeSize.cmake:263 (check_include_file)"
+      - "CMake/setup.cmake:133 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:36 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-GQvIru"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-GQvIru"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-GQvIru'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_672dd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_672dd.dir/build.make CMakeFiles/cmTC_672dd.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-GQvIru'
+        Building C object CMakeFiles/cmTC_672dd.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_672dd.dir/CheckIncludeFile.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-GQvIru/CheckIncludeFile.c
+        Linking C executable cmTC_672dd
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_672dd.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_672dd.dir/CheckIncludeFile.c.o -o cmTC_672dd
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-GQvIru'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckTypeSize.cmake:264 (check_include_file)"
+      - "CMake/setup.cmake:133 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:36 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-luP5Vv"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-luP5Vv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-luP5Vv'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_41ffb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_41ffb.dir/build.make CMakeFiles/cmTC_41ffb.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-luP5Vv'
+        Building C object CMakeFiles/cmTC_41ffb.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_41ffb.dir/CheckIncludeFile.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-luP5Vv/CheckIncludeFile.c
+        Linking C executable cmTC_41ffb
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41ffb.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_41ffb.dir/CheckIncludeFile.c.o -o cmTC_41ffb
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-luP5Vv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMake/setup.cmake:133 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:36 (include)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-BMrIqy"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-BMrIqy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-BMrIqy'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_303e4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_303e4.dir/build.make CMakeFiles/cmTC_303e4.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-BMrIqy'
+        Building C object CMakeFiles/cmTC_303e4.dir/SIZEOF_SHORT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_303e4.dir/SIZEOF_SHORT.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-BMrIqy/SIZEOF_SHORT.c
+        Linking C executable cmTC_303e4
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_303e4.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_303e4.dir/SIZEOF_SHORT.c.o -o cmTC_303e4
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-BMrIqy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMake/setup.cmake:134 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:36 (include)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-VDStrx"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-VDStrx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-VDStrx'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e01cc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e01cc.dir/build.make CMakeFiles/cmTC_e01cc.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-VDStrx'
+        Building C object CMakeFiles/cmTC_e01cc.dir/SIZEOF_INT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_e01cc.dir/SIZEOF_INT.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-VDStrx/SIZEOF_INT.c
+        Linking C executable cmTC_e01cc
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e01cc.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_e01cc.dir/SIZEOF_INT.c.o -o cmTC_e01cc
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-VDStrx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMake/setup.cmake:135 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:36 (include)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-KO12sv"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-KO12sv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-KO12sv'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_90c5a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_90c5a.dir/build.make CMakeFiles/cmTC_90c5a.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-KO12sv'
+        Building C object CMakeFiles/cmTC_90c5a.dir/SIZEOF_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_90c5a.dir/SIZEOF_LONG.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-KO12sv/SIZEOF_LONG.c
+        Linking C executable cmTC_90c5a
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90c5a.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_90c5a.dir/SIZEOF_LONG.c.o -o cmTC_90c5a
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-KO12sv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMake/setup.cmake:136 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:36 (include)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-e2zTfw"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-e2zTfw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_HAVE_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-e2zTfw'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e1284/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e1284.dir/build.make CMakeFiles/cmTC_e1284.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-e2zTfw'
+        Building C object CMakeFiles/cmTC_e1284.dir/HAVE_LONG_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_e1284.dir/HAVE_LONG_LONG.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-e2zTfw/HAVE_LONG_LONG.c
+        Linking C executable cmTC_e1284
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1284.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_e1284.dir/HAVE_LONG_LONG.c.o -o cmTC_e1284
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-e2zTfw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMake/resources.cmake:119 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for dlsym"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-A8vbbx"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-A8vbbx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_DLSYM"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-A8vbbx'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_47a70/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_47a70.dir/build.make CMakeFiles/cmTC_47a70.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-A8vbbx'
+        Building C object CMakeFiles/cmTC_47a70.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlsym -o CMakeFiles/cmTC_47a70.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-A8vbbx/CheckFunctionExists.c
+        Linking C executable cmTC_47a70
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47a70.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlsym -rdynamic CMakeFiles/cmTC_47a70.dir/CheckFunctionExists.c.o -o cmTC_47a70  -ldl
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-A8vbbx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMake/resources.cmake:122 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for localeconv"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-TM2pgx"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-TM2pgx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_LOCALECONV"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-TM2pgx'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b929b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b929b.dir/build.make CMakeFiles/cmTC_b929b.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-TM2pgx'
+        Building C object CMakeFiles/cmTC_b929b.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localeconv -o CMakeFiles/cmTC_b929b.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-TM2pgx/CheckFunctionExists.c
+        Linking C executable cmTC_b929b
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b929b.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=localeconv -rdynamic CMakeFiles/cmTC_b929b.dir/CheckFunctionExists.c.o -o cmTC_b929b
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-TM2pgx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMake/resources.cmake:131 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for scandir"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-wRW7rv"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-wRW7rv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_SCANDIR"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-wRW7rv'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_63034/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_63034.dir/build.make CMakeFiles/cmTC_63034.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-wRW7rv'
+        Building C object CMakeFiles/cmTC_63034.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=scandir -o CMakeFiles/cmTC_63034.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-wRW7rv/CheckFunctionExists.c
+        Linking C executable cmTC_63034
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63034.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=scandir -rdynamic CMakeFiles/cmTC_63034.dir/CheckFunctionExists.c.o -o cmTC_63034
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-wRW7rv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMake/resources.cmake:132 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for snprintf"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9evDdw"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9evDdw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_SNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9evDdw'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_21a18/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_21a18.dir/build.make CMakeFiles/cmTC_21a18.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9evDdw'
+        Building C object CMakeFiles/cmTC_21a18.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf -o CMakeFiles/cmTC_21a18.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9evDdw/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘snprintf’; expected ‘int(char *, long unsigned int,  const char *, ...)’ [-Wbuiltin-declaration-mismatch]
+        /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9evDdw/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9evDdw/CheckFunctionExists.c:1:1: note: ‘snprintf’ is declared in header ‘<stdio.h>’
+          +++ |+#include <stdio.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        Linking C executable cmTC_21a18
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21a18.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snprintf -rdynamic CMakeFiles/cmTC_21a18.dir/CheckFunctionExists.c.o -o cmTC_21a18
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9evDdw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMake/resources.cmake:139 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for strcasecmp"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-rQu3zx"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-rQu3zx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_STRCASECMP"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-rQu3zx'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d5b5e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d5b5e.dir/build.make CMakeFiles/cmTC_d5b5e.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-rQu3zx'
+        Building C object CMakeFiles/cmTC_d5b5e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp -o CMakeFiles/cmTC_d5b5e.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-rQu3zx/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘strcasecmp’; expected ‘int(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+        <command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+        Linking C executable cmTC_d5b5e
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5b5e.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcasecmp -rdynamic CMakeFiles/cmTC_d5b5e.dir/CheckFunctionExists.c.o -o cmTC_d5b5e
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-rQu3zx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMake/resources.cmake:141 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for strlcat"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-l5Xukx"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-l5Xukx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_STRLCAT"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-l5Xukx'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_550e4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_550e4.dir/build.make CMakeFiles/cmTC_550e4.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-l5Xukx'
+        Building C object CMakeFiles/cmTC_550e4.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat -o CMakeFiles/cmTC_550e4.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-l5Xukx/CheckFunctionExists.c
+        Linking C executable cmTC_550e4
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_550e4.dir/link.txt --verbose=1
+        /usr/bin/ld: CMakeFiles/cmTC_550e4.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x14): undefined reference to `strlcat'
+        collect2: error: ld returned 1 exit status
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcat -rdynamic CMakeFiles/cmTC_550e4.dir/CheckFunctionExists.c.o -o cmTC_550e4
+        gmake[1]: *** [CMakeFiles/cmTC_550e4.dir/build.make:102: cmTC_550e4] Error 1
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-l5Xukx'
+        gmake: *** [Makefile:134: cmTC_550e4/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMake/resources.cmake:142 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for strlcpy"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9aPG9x"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9aPG9x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_STRLCPY"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9aPG9x'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_27745/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_27745.dir/build.make CMakeFiles/cmTC_27745.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9aPG9x'
+        Building C object CMakeFiles/cmTC_27745.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy -o CMakeFiles/cmTC_27745.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9aPG9x/CheckFunctionExists.c
+        Linking C executable cmTC_27745
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27745.dir/link.txt --verbose=1
+        /usr/bin/ld: CMakeFiles/cmTC_27745.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x14): undefined reference to `strlcpy'
+        collect2: error: ld returned 1 exit status
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcpy -rdynamic CMakeFiles/cmTC_27745.dir/CheckFunctionExists.c.o -o cmTC_27745
+        gmake[1]: *** [CMakeFiles/cmTC_27745.dir/build.make:102: cmTC_27745] Error 1
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-9aPG9x'
+        gmake: *** [Makefile:134: cmTC_27745/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMake/resources.cmake:143 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for vsnprintf"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-dMqEFx"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-dMqEFx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_VSNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-dMqEFx'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_67fe7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_67fe7.dir/build.make CMakeFiles/cmTC_67fe7.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-dMqEFx'
+        Building C object CMakeFiles/cmTC_67fe7.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf -o CMakeFiles/cmTC_67fe7.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-dMqEFx/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘vsnprintf’; expected ‘int(char *, long unsigned int,  const char *, __va_list_tag *)’ [-Wbuiltin-declaration-mismatch]
+        /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-dMqEFx/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-dMqEFx/CheckFunctionExists.c:1:1: note: ‘vsnprintf’ is declared in header ‘<stdio.h>’
+          +++ |+#include <stdio.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        Linking C executable cmTC_67fe7
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67fe7.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vsnprintf -rdynamic CMakeFiles/cmTC_67fe7.dir/CheckFunctionExists.c.o -o cmTC_67fe7
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-dMqEFx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/resources.cmake:148 (try_compile)"
+      - "CMakeLists.txt:41 (include)"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeTmp"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "V"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8f1fb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8f1fb.dir/build.make CMakeFiles/cmTC_8f1fb.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_8f1fb.dir/posixScandir.cxx.o
+        /usr/bin/c++    -o CMakeFiles/cmTC_8f1fb.dir/posixScandir.cxx.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake/posixScandir.cxx
+        /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake/posixScandir.cxx: In function ‘int func(const char*, dirent***, void*)’:
+        /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake/posixScandir.cxx:6:1: warning: no return statement in function returning non-void [-Wreturn-type]
+            6 | }
+              | ^
+        Linking CXX executable cmTC_8f1fb
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f1fb.dir/link.txt --verbose=1
+        /usr/bin/c++ -rdynamic CMakeFiles/cmTC_8f1fb.dir/posixScandir.cxx.o -o cmTC_8f1fb
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/FindX11.cmake:693 (check_library_exists)"
+      - "CMake/options.cmake:56 (include)"
+      - "CMakeLists.txt:46 (include)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-PSl0zx"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-PSl0zx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-PSl0zx'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_963f9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_963f9.dir/build.make CMakeFiles/cmTC_963f9.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-PSl0zx'
+        Building C object CMakeFiles/cmTC_963f9.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_963f9.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-PSl0zx/CheckFunctionExists.c
+        Linking C executable cmTC_963f9
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_963f9.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay -rdynamic CMakeFiles/cmTC_963f9.dir/CheckFunctionExists.c.o -o cmTC_963f9  /usr/lib/x86_64-linux-gnu/libX11.so
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-PSl0zx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/FindX11.cmake:708 (check_function_exists)"
+      - "CMake/options.cmake:56 (include)"
+      - "CMakeLists.txt:46 (include)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RW99Lv"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RW99Lv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RW99Lv'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cbd4b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cbd4b.dir/build.make CMakeFiles/cmTC_cbd4b.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RW99Lv'
+        Building C object CMakeFiles/cmTC_cbd4b.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_cbd4b.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RW99Lv/CheckFunctionExists.c
+        Linking C executable cmTC_cbd4b
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbd4b.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname -rdynamic CMakeFiles/cmTC_cbd4b.dir/CheckFunctionExists.c.o -o cmTC_cbd4b
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-RW99Lv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/FindX11.cmake:722 (check_function_exists)"
+      - "CMake/options.cmake:56 (include)"
+      - "CMakeLists.txt:46 (include)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Qa7DKw"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Qa7DKw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Qa7DKw'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ef3ab/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ef3ab.dir/build.make CMakeFiles/cmTC_ef3ab.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Qa7DKw'
+        Building C object CMakeFiles/cmTC_ef3ab.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_ef3ab.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Qa7DKw/CheckFunctionExists.c
+        Linking C executable cmTC_ef3ab
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef3ab.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect -rdynamic CMakeFiles/cmTC_ef3ab.dir/CheckFunctionExists.c.o -o cmTC_ef3ab
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-Qa7DKw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/FindX11.cmake:731 (check_function_exists)"
+      - "CMake/options.cmake:56 (include)"
+      - "CMakeLists.txt:46 (include)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-S7Jtyw"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-S7Jtyw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-S7Jtyw'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_968c8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_968c8.dir/build.make CMakeFiles/cmTC_968c8.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-S7Jtyw'
+        Building C object CMakeFiles/cmTC_968c8.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_968c8.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-S7Jtyw/CheckFunctionExists.c
+        Linking C executable cmTC_968c8
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_968c8.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove -rdynamic CMakeFiles/cmTC_968c8.dir/CheckFunctionExists.c.o -o cmTC_968c8
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-S7Jtyw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/FindX11.cmake:740 (check_function_exists)"
+      - "CMake/options.cmake:56 (include)"
+      - "CMakeLists.txt:46 (include)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-FxHfrv"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-FxHfrv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-FxHfrv'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8f0bb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8f0bb.dir/build.make CMakeFiles/cmTC_8f0bb.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-FxHfrv'
+        Building C object CMakeFiles/cmTC_8f0bb.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_8f0bb.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-FxHfrv/CheckFunctionExists.c
+        Linking C executable cmTC_8f0bb
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f0bb.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat -rdynamic CMakeFiles/cmTC_8f0bb.dir/CheckFunctionExists.c.o -o cmTC_8f0bb
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-FxHfrv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMake/options.cmake:158 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:46 (include)"
+    checks:
+      - "Looking for glXGetProcAddressARB"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vdmV7x"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vdmV7x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "HAVE_GLXGETPROCADDRESSARB"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vdmV7x'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46797/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_46797.dir/build.make CMakeFiles/cmTC_46797.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vdmV7x'
+        Building C object CMakeFiles/cmTC_46797.dir/CheckFunctionExists.c.o
+        /usr/bin/cc  -I/usr/include/GL -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB -o CMakeFiles/cmTC_46797.dir/CheckFunctionExists.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vdmV7x/CheckFunctionExists.c
+        Linking C executable cmTC_46797
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46797.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB -rdynamic CMakeFiles/cmTC_46797.dir/CheckFunctionExists.c.o -o cmTC_46797  -lGLU -lGL
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vdmV7x'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/snap/cmake/1445/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMake/options.cmake:171 (include)"
+      - "CMakeLists.txt:46 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vfalFw"
+      binary: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vfalFw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vfalFw'
+        
+        Run Build Command(s): /snap/cmake/1445/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aca80/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_aca80.dir/build.make CMakeFiles/cmTC_aca80.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vfalFw'
+        Building C object CMakeFiles/cmTC_aca80.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD -I/usr/include/GL  -o CMakeFiles/cmTC_aca80.dir/src.c.o -c /mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vfalFw/src.c
+        Linking C executable cmTC_aca80
+        /snap/cmake/1445/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aca80.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_aca80.dir/src.c.o -o cmTC_aca80
+        gmake[1]: Leaving directory '/mnt/c/Users/denis/Desktop/vrotebalc++/progs/fltk-1.3.5/build/CMakeFiles/CMakeScratch/TryCompile-vfalFw'
+        
+      exitCode: 0
+...

@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -rdynamic CMakeFiles/sudoku.dir/sudoku.cxx.o -o ../bin/examples/sudoku  ../lib/libfltk.a ../lib/libfltk_images.a -lasound ../lib/libfltk.a -Wl,-Bstatic -ldl -Wl,-Bdynamic -lX11 ../lib/libfltk_jpeg.a ../lib/libfltk_png.a ../lib/libfltk_z.a
