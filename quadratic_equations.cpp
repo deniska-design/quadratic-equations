@@ -7,6 +7,7 @@
 #include"FL/Fl_Float_Input.H"
 #include <cmath>
 #include <unistd.h>
+#include <stdlib.h>
 
 enum{
     x = 400,            //росположение по горизонати
@@ -38,17 +39,17 @@ int array_length(char array[]){
 
 
 void calculation_callback(Fl_Widget *w, void *user){
-    char root_buf1[10];
-    char root_buf2[10];
-    double x1, x2;
-    int coefficient[3];
-    Fl_Input** abundalakaka = (Fl_Input**)user;
-    coefficient[a] = atoi (abundalakaka[a]->value());
-    printf("a: %d\n", coefficient[a]);
-    coefficient[b] = atoi (abundalakaka[b]->value());
-    printf("b: %d\n", coefficient[b]);
-    coefficient[c] = atoi (abundalakaka[c]->value());
-    printf("c: %d\n", coefficient[c]);
+    char *root_buf1 = new(char);
+    char *root_buf2 = new(char);
+    float x1, x2;
+    float coefficient[3];
+    Fl_Input** buffer = (Fl_Input**)user;
+    coefficient[a] = atof(buffer[a]->value());
+    printf("a: %f\n", coefficient[a]);
+    coefficient[b] = atof(buffer[b]->value());
+    printf("b: %f\n", coefficient[b]);
+    coefficient[c] = atof(buffer[c]->value());
+    printf("c: %f\n", coefficient[c]);
     int D = ((coefficient[b])* (coefficient[b]) - (4 * (coefficient[a]) * (coefficient[c])));
     printf("D = %d\n", D);
     if(D < 0){
@@ -61,11 +62,11 @@ void calculation_callback(Fl_Widget *w, void *user){
     else if(D > 0){
         x1 = ( -(coefficient[b]) + sqrt(D) ) / (2 * (coefficient[a]));
         x2 =  ( -(coefficient[b]) - sqrt(D) ) / (2 * (coefficient[a]));
-        sprintf(root_buf2, "%f", x2);
+        sprintf(root_buf2, "%d", (int)x2);
         root_2->label(root_buf2);
         printf("x = %f, %f\n", x1, x2);
     }
-    sprintf(root_buf1, "%f", x1); 
+    sprintf(root_buf1, "%d", (int)x1); 
     root_1->label(root_buf1);
 }
 
