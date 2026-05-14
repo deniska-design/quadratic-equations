@@ -23,7 +23,7 @@ enum{
 
     a = 0,              //коффециенты типо что бы приколько выглядило
     b = 1,              //ну типо coefficient[a] и тип сразу понятно
-    c = 2               //пон?
+    c = 2               
 };
 
 Fl_Window *win = new Fl_Window(1200, 550, "quadratic equations");
